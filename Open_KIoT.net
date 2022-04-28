@@ -1,0 +1,1662 @@
+(export 
+  (version D) 
+  (design 
+    (source "/home/admin1/Documentos/Voluta Coop/eGallinero/kicad/eGallinero/eGallinero.sch") 
+    (date "vie 07 may 2021 08:17:43") 
+    (tool "Eeschema 5.1.5+dfsg1-2build2") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "Esquema eGallinero") 
+        (company voluta.coop) 
+        (rev) 
+        (date 2021-04-19) 
+        (source Open_KIoT.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value ESP32-devkit-v1) 
+      (footprint eGallinero:ESP32-DevKit-v1) 
+      (libsource 
+        (lib eGallinero) 
+        (part ESP32-devkit-v1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6078C14A)) 
+    (comp 
+      (ref J1) 
+      (value Jack-DC) 
+      (footprint Connector_BarrelJack:BarrelJack_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Jack-DC) 
+        (description "DC Barrel Jack")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6078E13C)) 
+    (comp 
+      (ref J5) 
+      (value Servo_SG90) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 607A15D0)) 
+    (comp 
+      (ref D3) 
+      (value 1N5819) 
+      (footprint Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 607916E2)) 
+    (comp 
+      (ref SW2) 
+      (value SW_DIP_x01) 
+      (footprint Button_Switch_THT:SW_PUSH_6mm_H4.3mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_DIP_x01) 
+        (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6088FD7A)) 
+    (comp 
+      (ref R1) 
+      (value 10K) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6089863E)) 
+    (comp 
+      (ref SW1) 
+      (value SW_DIP_x01) 
+      (footprint Button_Switch_THT:SW_PUSH_6mm_H4.3mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_DIP_x01) 
+        (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608A9AE8)) 
+    (comp 
+      (ref R2) 
+      (value 10K) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608A9AF4)) 
+    (comp 
+      (ref D1) 
+      (value LED_1) 
+      (footprint LED_THT:LED_D5.0mm_Clear) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60901E41)) 
+    (comp 
+      (ref R3) 
+      (value 330) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60903A71)) 
+    (comp 
+      (ref R8) 
+      (value 10K) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60989840)) 
+    (comp 
+      (ref R5) 
+      (value 10K) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 609B3DDE)) 
+    (comp 
+      (ref R6) 
+      (value 10K) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 609D895B)) 
+    (comp 
+      (ref R7) 
+      (value 10K) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6091CB43)) 
+    (comp 
+      (ref D2) 
+      (value LED_2) 
+      (footprint LED_THT:LED_D5.0mm_Clear) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 609B495C)) 
+    (comp 
+      (ref R4) 
+      (value 330) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 609B4962)) 
+    (comp 
+      (ref F1) 
+      (value Polyfuse) 
+      (footprint eGallinero:AHEF100) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Polyfuse) 
+        (description "Resettable fuse, polymeric positive temperature coefficient")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60A69F47)) 
+    (comp 
+      (ref C1) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60DA9F8D)) 
+    (comp 
+      (ref H1) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E7EA77)) 
+    (comp 
+      (ref H3) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E82113)) 
+    (comp 
+      (ref H2) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E822C6)) 
+    (comp 
+      (ref H4) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E8255B)) 
+    (comp 
+      (ref J7) 
+      (value SPI) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x07) 
+        (description "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60F16DB2)) 
+    (comp 
+      (ref J9) 
+      (value I2C) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x05) 
+        (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60F17470)) 
+    (comp 
+      (ref J10) 
+      (value SERIAL) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x05) 
+        (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FB604C)) 
+    (comp 
+      (ref J8) 
+      (value "E/S AUX") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x06) 
+        (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FB77F2)) 
+    (comp 
+      (ref RV1) 
+      (value Varistor) 
+      (footprint Varistor:RV_Disc_D7mm_W4.5mm_P5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Varistor) 
+        (description "Voltage dependent resistor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6125C050)) 
+    (comp 
+      (ref C9) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612C2160)) 
+    (comp 
+      (ref C10) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612C29A6)) 
+    (comp 
+      (ref C6) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60DC714B)) 
+    (comp 
+      (ref C3) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612D7BB0)) 
+    (comp 
+      (ref C2) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612D7D9F)) 
+    (comp 
+      (ref C8) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612D92C3)) 
+    (comp 
+      (ref C7) 
+      (value 10u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612DE83A)) 
+    (comp 
+      (ref C4) 
+      (value 100u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613FAB94)) 
+    (comp 
+      (ref U2) 
+      (value edge) 
+      (footprint eGallinero:edge) 
+      (libsource 
+        (lib eGallinero) 
+        (part edge) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60808D3F)) 
+    (comp 
+      (ref J2) 
+      (value LDR) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6095A326)) 
+    (comp 
+      (ref J4) 
+      (value "FC 2") 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 609606EF)) 
+    (comp 
+      (ref J12) 
+      (value "FC 1") 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60AAA944)) 
+    (comp 
+      (ref J6) 
+      (value PIENSO) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B0424D)) 
+    (comp 
+      (ref J11) 
+      (value AGUA) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B048BD)) 
+    (comp 
+      (ref J3) 
+      (value DHT) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B04DF8)) 
+    (comp 
+      (ref C5) 
+      (value 100u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60939042)) 
+    (comp 
+      (ref U3) 
+      (value LM3940) 
+      (footprint Package_TO_SOT_THT:TO-220-3_Vertical) 
+      (libsource 
+        (lib eGallinero) 
+        (part LM3940) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 609492AE)) 
+    (comp 
+      (ref C12) 
+      (value 100u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6095AAA0)) 
+    (comp 
+      (ref C11) 
+      (value 0.47u) 
+      (footprint Capacitor_THT:CP_Radial_D5.0mm_P2.00mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP1) 
+        (description "Polarized capacitor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6095E306))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Barrel_Jack) 
+      (aliases 
+        (alias Jack-DC)) 
+      (description "DC Barrel Jack") 
+      (docs ~) 
+      (footprints 
+        (fp BarrelJack*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Barrel_Jack)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x02) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x05) 
+      (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x05)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x06) 
+      (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x06)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x07) 
+      (description "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x07)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C) 
+      (description "Unpolarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part CP1) 
+      (description "Polarized capacitor, US symbol") 
+      (docs ~) 
+      (footprints 
+        (fp CP_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) CP1)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part D) 
+      (description Diode) 
+      (docs ~) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Polyfuse) 
+      (description "Resettable fuse, polymeric positive temperature coefficient") 
+      (docs ~) 
+      (footprints 
+        (fp *polyfuse*) 
+        (fp *PTC*)) 
+      (fields 
+        (field 
+          (name Reference) F) 
+        (field 
+          (name Value) Polyfuse)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Varistor) 
+      (description "Voltage dependent resistor") 
+      (docs ~) 
+      (footprints 
+        (fp RV_*) 
+        (fp Varistor*)) 
+      (fields 
+        (field 
+          (name Reference) RV) 
+        (field 
+          (name Value) Varistor)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_DIP_x01) 
+      (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp SW?DIP?x1*)) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_DIP_x01)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib eGallinero) 
+      (part ESP32-devkit-v1) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ESP32-devkit-v1)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name EN) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name VP) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name VN) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name GPIO34) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name GPIO35) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name GPIO32) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name GPIO33) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name GPIO25) 
+          (type input)) 
+        (pin 
+          (num 9) 
+          (name GPIO26) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name GPIO27) 
+          (type input)) 
+        (pin 
+          (num 11) 
+          (name GPIO14) 
+          (type input)) 
+        (pin 
+          (num 12) 
+          (name GPIO12) 
+          (type input)) 
+        (pin 
+          (num 13) 
+          (name GPIO13) 
+          (type input)) 
+        (pin 
+          (num 14) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 15) 
+          (name 5V_VIN) 
+          (type input)) 
+        (pin 
+          (num 16) 
+          (name 3V3) 
+          (type input)) 
+        (pin 
+          (num 17) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 18) 
+          (name GPIO15) 
+          (type input)) 
+        (pin 
+          (num 19) 
+          (name GPIO2) 
+          (type input)) 
+        (pin 
+          (num 20) 
+          (name GPIO4) 
+          (type input)) 
+        (pin 
+          (num 21) 
+          (name GPIO16) 
+          (type input)) 
+        (pin 
+          (num 22) 
+          (name GPIO17) 
+          (type input)) 
+        (pin 
+          (num 23) 
+          (name CS) 
+          (type input)) 
+        (pin 
+          (num 24) 
+          (name CLK) 
+          (type input)) 
+        (pin 
+          (num 25) 
+          (name MISO) 
+          (type input)) 
+        (pin 
+          (num 26) 
+          (name SDA) 
+          (type input)) 
+        (pin 
+          (num 27) 
+          (name RX) 
+          (type input)) 
+        (pin 
+          (num 28) 
+          (name TX) 
+          (type input)) 
+        (pin 
+          (num 29) 
+          (name SCL) 
+          (type input)) 
+        (pin 
+          (num 30) 
+          (name MOSI) 
+          (type input)))) 
+    (libpart 
+      (lib eGallinero) 
+      (part LM3940) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LM3940)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VIN) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name VOUT) 
+          (type output)))) 
+    (libpart 
+      (lib eGallinero) 
+      (part edge) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) edge)))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri /usr/share/kicad/library/Connector.lib)) 
+    (library 
+      (logical Connector_Generic) 
+      (uri /usr/share/kicad/library/Connector_Generic.lib)) 
+    (library 
+      (logical Device) 
+      (uri /usr/share/kicad/library/Device.lib)) 
+    (library 
+      (logical Mechanical) 
+      (uri /usr/share/kicad/library/Mechanical.lib)) 
+    (library 
+      (logical Switch) 
+      (uri /usr/share/kicad/library/Switch.lib)) 
+    (library 
+      (logical eGallinero) 
+      (uri "/home/admin1/Documentos/Voluta Coop/eGallinero/kicad/eGallinero/eGallinero.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name +3V3) 
+      (node 
+        (ref J11) 
+        (pin 3)) 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref SW2) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref J10) 
+        (pin 4)) 
+      (node 
+        (ref J9) 
+        (pin 4)) 
+      (node 
+        (ref J7) 
+        (pin 6)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 3)) 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref U3) 
+        (pin 3)) 
+      (node 
+        (ref C12) 
+        (pin 1)) 
+      (node 
+        (ref J12) 
+        (pin 2)) 
+      (node 
+        (ref J8) 
+        (pin 5))) 
+    (net 
+      (code 2) 
+      (name +5V) 
+      (node 
+        (ref J8) 
+        (pin 4)) 
+      (node 
+        (ref C11) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 1)) 
+      (node 
+        (ref J9) 
+        (pin 3)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 15)) 
+      (node 
+        (ref J10) 
+        (pin 3))) 
+    (net 
+      (code 3) 
+      (name GND) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref J8) 
+        (pin 6)) 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref R7) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 3)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 5)) 
+      (node 
+        (ref J9) 
+        (pin 5)) 
+      (node 
+        (ref C9) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 7)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref RV1) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 17)) 
+      (node 
+        (ref U1) 
+        (pin 14)) 
+      (node 
+        (ref C8) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref C6) 
+        (pin 2)) 
+      (node 
+        (ref C7) 
+        (pin 2)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref C12) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 2)) 
+      (node 
+        (ref C11) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2))) 
+    (net 
+      (code 4) 
+      (name PULS_2) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 13)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 5) 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref RV1) 
+        (pin 1)) 
+      (node 
+        (ref F1) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name "Net-(F1-Pad2)") 
+      (node 
+        (ref F1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 1))) 
+    (net 
+      (code 7) 
+      (name "Net-(U1-Pad4)") 
+      (node 
+        (ref U1) 
+        (pin 4))) 
+    (net 
+      (code 8) 
+      (name LDR) 
+      (node 
+        (ref R7) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref J2) 
+        (pin 1))) 
+    (net 
+      (code 9) 
+      (name AGUA) 
+      (node 
+        (ref J11) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref C9) 
+        (pin 1))) 
+    (net 
+      (code 10) 
+      (name PIENSO) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref C10) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 7))) 
+    (net 
+      (code 11) 
+      (name FC_1) 
+      (node 
+        (ref C7) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref J12) 
+        (pin 1)) 
+      (node 
+        (ref R5) 
+        (pin 2))) 
+    (net 
+      (code 12) 
+      (name PULS_1) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 1)) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 12))) 
+    (net 
+      (code 13) 
+      (name SERVO) 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref J5) 
+        (pin 2))) 
+    (net 
+      (code 14) 
+      (name LED_1) 
+      (node 
+        (ref U1) 
+        (pin 19)) 
+      (node 
+        (ref R3) 
+        (pin 1))) 
+    (net 
+      (code 15) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref R3) 
+        (pin 2))) 
+    (net 
+      (code 16) 
+      (name D1) 
+      (node 
+        (ref U1) 
+        (pin 21)) 
+      (node 
+        (ref J8) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name "Net-(U1-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 18) 
+      (name D0) 
+      (node 
+        (ref U1) 
+        (pin 22)) 
+      (node 
+        (ref J8) 
+        (pin 1))) 
+    (net 
+      (code 19) 
+      (name D2) 
+      (node 
+        (ref J8) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 20))) 
+    (net 
+      (code 20) 
+      (name "Net-(U1-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 21) 
+      (name LED_2) 
+      (node 
+        (ref U1) 
+        (pin 18)) 
+      (node 
+        (ref R4) 
+        (pin 1))) 
+    (net 
+      (code 22) 
+      (name FC_2) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref C8) 
+        (pin 1))) 
+    (net 
+      (code 23) 
+      (name DHT) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref R8) 
+        (pin 1))) 
+    (net 
+      (code 24) 
+      (name SDA) 
+      (node 
+        (ref U1) 
+        (pin 26)) 
+      (node 
+        (ref J9) 
+        (pin 2))) 
+    (net 
+      (code 25) 
+      (name RX) 
+      (node 
+        (ref U1) 
+        (pin 27)) 
+      (node 
+        (ref J10) 
+        (pin 2))) 
+    (net 
+      (code 26) 
+      (name TX) 
+      (node 
+        (ref J10) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 28))) 
+    (net 
+      (code 27) 
+      (name SCL) 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 29))) 
+    (net 
+      (code 28) 
+      (name CS) 
+      (node 
+        (ref J7) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 23))) 
+    (net 
+      (code 29) 
+      (name CLK) 
+      (node 
+        (ref U1) 
+        (pin 24)) 
+      (node 
+        (ref J7) 
+        (pin 3))) 
+    (net 
+      (code 30) 
+      (name MISO) 
+      (node 
+        (ref U1) 
+        (pin 25)) 
+      (node 
+        (ref J7) 
+        (pin 2))) 
+    (net 
+      (code 31) 
+      (name MOSI) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 30))) 
+    (net 
+      (code 32) 
+      (name "Net-(C1-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1))) 
+    (net 
+      (code 33) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref R4) 
+        (pin 2)))))

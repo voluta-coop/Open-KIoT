@@ -1,0 +1,120 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-F_Cu.gtl"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-B_Cu.gbl"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-F_Paste.gtp"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-B_Paste.gbp"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-F_SilkS.gto"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-B_SilkS.gbo"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "Open_KIoT-F_Mask.gts"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "Open_KIoT-B_Mask.gbs"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "Open_KIoT-Edge_Cuts.gm1"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "6547616c-6c69-46e6-9572-6f2e6b696361",
+"Name": "eGallinero",
+"Revision": "rev?"
+},
+"Size": {
+"X": 100.2,
+"Y": 91.2
+}
+},
+"Header": {
+"CreationDate": "2021-04-22T17:56:20+02:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "5.1.5+dfsg1-2build2"
+}
+},
+"MaterialStackup": [
+{
+"Notes": "Layer F.SilkS",
+"Type": "Legend"
+},
+{
+"Notes": "Layer F.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer F.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L1/L2",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer B.Cu",
+"Type": "Copper"
+},
+{
+"Notes": "Layer B.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer B.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer B.SilkS",
+"Type": "Legend"
+}
+]
+}

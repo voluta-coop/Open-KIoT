@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "eGallinero")(type "Legacy")(uri "${KIPRJMOD}/Open_KIoT.lib")(options "")(descr ""))
+  (lib (name "eGallinero-rescue")(type "Legacy")(uri "${KIPRJMOD}/Open_KIoT-rescue.lib")(options "")(descr ""))
+  (lib (name "Open_KIoT")(type "KiCad")(uri "/home/admin1/Documentos/Voluta Coop/Productos/eGallinero/kicad/Open KIoT/Librerías/Open_KIoT.kicad_sym")(options "")(descr ""))
+)
