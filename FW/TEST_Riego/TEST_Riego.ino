@@ -3,18 +3,17 @@
 #include <UniversalTelegramBot.h>
 
 // Wifi
-#define WIFI_SSID "XXXXXX"
-#define WIFI_PASSWORD "XXXXXXXX"
+#define WIFI_SSID   "Miphone" //"XXXXXX"
+#define WIFI_PASSWORD   "12345678" //"XXXXXXXX"
 
 // Telegram
-#define BOT_TOKEN "XXXXXXXXXXXXXXXX"
-#define CHAT_ID "XXXXXXXXXXX"
+#define BOT_TOKEN   "1843657254:AAHsMVntAsn16NQVYnEXw6Z1gZESVfsxE1U" //"XXXXXXXXXXXXXXXX"
+#define CHAT_ID   "941876134" //"XXXXXXXXXXX"
 
-// Pines
 
 #define PIN_BOMBA 26
 #define PIN_BOYA 27
-#define PIN_HUM_TIERRA 35
+#define PIN_HUM_TIERRA 33
 
 
 WiFiClientSecure secured_client;
@@ -28,8 +27,9 @@ unsigned long bot_lasttime; // last time messages' scan has been done
 bool bomba = false;
 bool boya = false;
 int humedad_tierra = 0;
-int hum_min = 400;
-int hum_max = 1500;
+int humedad_tierra_100 = 0;
+int hum_min = 20;
+int hum_max = 80;
 unsigned long tiempo = 0;
 
 void setup()
@@ -63,26 +63,42 @@ void loop()
     delay(500);
   }
 
-  if(millis() - tiempo > 60000){
+  if(millis() - tiempo > 60000 || tiempo == 0 || bomba == true){
+
+    tiempo = millis();
     
     boya = digitalRead(PIN_BOYA);
+    
     humedad_tierra = analogRead(PIN_HUM_TIERRA);
-  
+    humedad_tierra_100 = map(humedad_tierra, 350, 3800, 0, 100);
+    
+    if(humedad_tierra_100 > 100) humedad_tierra_100 = 100;
+    if(humedad_tierra_100 < 0) humedad_tierra_100 = 0;
+    
     if(boya == false){
       bot.sendMessage(CHAT_ID,"Debes rellenar el agua del riego", "");
       bomba = false;
     }
   
-    else if(boya == true && humedad_tierra < hum_min && bomba == false) {
+    else if(boya == true && humedad_tierra_100 < hum_min && bomba == false) {
       bot.sendMessage(CHAT_ID,"Riego encendido", "");
       bomba = true;
     }
   
-    else if(boya == true && humedad_tierra > hum_max){
+    else if(boya == true && humedad_tierra_100 > hum_max){
       bomba = false;
       bot.sendMessage(CHAT_ID,"Riego apagado", "");
     }
+
+    Serial.print("Humedad : ");
+    Serial.println(humedad_tierra);
+    Serial.print("Humedad % : ");
+    Serial.println(humedad_tierra_100);
+    Serial.print("Boya : ");
+    Serial.println(boya);
+    Serial.print("Bomba : ");
+    Serial.println(bomba);
     
-    digitalWrite(PIN_BOYA, boya);
+    digitalWrite(PIN_BOMBA, bomba);
   }
 }
