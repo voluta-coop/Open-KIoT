@@ -3,12 +3,12 @@
 #include <UniversalTelegramBot.h>
 
 // Wifi
-#define WIFI_SSID   "Miphone" //"XXXXXX"
-#define WIFI_PASSWORD   "12345678" //"XXXXXXXX"
+#define WIFI_SSID   "XXXXXX"
+#define WIFI_PASSWORD   "XXXXXXXX"
 
 // Telegram
-#define BOT_TOKEN   "1843657254:AAHsMVntAsn16NQVYnEXw6Z1gZESVfsxE1U" //"XXXXXXXXXXXXXXXX"
-#define CHAT_ID   "941876134" //"XXXXXXXXXXX"
+#define BOT_TOKEN   "XXXXXXXXXXXXXXXX"
+#define CHAT_ID   "XXXXXXXXXXX"
 
 
 #define PIN_BOMBA 26
