@@ -404,7 +404,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../3D/step/PCB_Open_KIoT.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
