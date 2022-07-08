@@ -7,7 +7,7 @@ bool bomba = false;
 bool boya = false;
 int humedad_tierra = 0;
 int humedad_tierra_100 = 0;
-int hum_min = 20;
+int hum_min = 30;
 int hum_max = 80;
 unsigned long tiempo = 0;
 
@@ -22,13 +22,8 @@ void setup()
 
 void loop()
 {
-
-  if(millis() - tiempo > 60000 || tiempo == 0 || bomba == true){
-
-    tiempo = millis();
     
     boya = digitalRead(PIN_BOYA);
-    
     humedad_tierra = analogRead(PIN_HUM_TIERRA);
     humedad_tierra_100 = map(humedad_tierra, 350, 3800, 0, 100);
     
@@ -57,5 +52,4 @@ void loop()
     Serial.println(bomba);
     
     digitalWrite(PIN_BOMBA, bomba);
-  }
 }
